@@ -1,0 +1,21 @@
+i = 1
+a = 0
+def potencia(base, expoente):
+
+    resultado= 1
+
+    if(expoente==1):
+        print(base)
+    elif(expoente==2):
+        print(base*base)
+    else:
+        for i in range(expoente):
+            resultado = resultado * base
+
+        print(resultado)
+
+
+def main():
+    potencia(5,4)
+
+main()
