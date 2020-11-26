@@ -2,6 +2,11 @@
 #include<stdlib.h>
 #include<conio.h>
 #include<math.h>
+/*
+Eu estava errando na hora de passar o vetor como parâmetro.
+Em C, tenho que passar só o nome da variável e receber como parâmetro na função a posição de memória do mesmo.
+A lógica segue a mesma da resolução em Python, a diferença é que tenho que fazer um loop for para imprimir o resultado.
+*/
 
 int b[3] = {0,0,0};
 int vetor[3] = {1,2,3};
