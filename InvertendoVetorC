@@ -1,0 +1,81 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+#include<math.h>
+
+int b[3] = {0,0,0};
+int vetor[3] = {1,2,3};
+int i = 0;
+int c=2;
+
+void array(int *x, int *y){
+	
+	while(i!=3){
+		y[i] = x[c];
+		i++;
+		c-=1;
+		
+	}
+	i = 0;
+	for(i=0;i<3;i++){
+		printf("\n%i valor do vetor invertido eh: %i", i,y[i]);
+	}
+	
+}
+
+void potencia(int a, int b){
+	
+	
+
+	int resultado = 0;
+	
+	resultado = pow(a,b);
+	
+	printf("\n O resultado eh: %i", resultado);
+	
+	
+}
+
+
+
+void funcao(float n1, float n2, float n3){
+	
+	if(n1<n2&&n1<n3){
+		printf("\nO menor valor eh: %f", n1);
+		
+	}else if(n2<n1&&n2<n3){
+		
+		printf("\no menor valor eh: %f", n2);
+		
+	}else if(n3<n1&&n3<n2){
+		
+		printf("\no menor valor eh: %f", n3);
+	}
+	 if(n1>n2&&n1>n3){
+	 	
+		printf("\nO maior eh: %f", n1);
+		
+	} if(n2>n1&&n2>n3){
+		
+		printf("\nO maior eh: %f", n2);
+		
+	} if(n3>n1&&n3>n2){
+		
+		printf("\nO maior eh: %f", n3);
+	}
+	float resultado = (n1+n2+n3)/3;
+	printf("\nA media eh: %f", resultado);
+
+	
+	
+}
+
+
+
+
+int main(){
+
+array(vetor,b);
+
+	
+}
