@@ -1,0 +1,20 @@
+vetor = [1,2,3]
+vetor2 = []
+c = 2
+i = 0
+
+
+
+def main():
+
+    global c,vetor, vetor2,i
+    while(i!=3):
+        vetor2.append(vetor[c])
+        c-=1
+        i+=1
+    print(vetor2)
+
+
+   
+
+main()
