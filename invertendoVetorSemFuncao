@@ -3,7 +3,7 @@ vetor2 = []
 c = 2
 i = 0
 
-#Primeiro testei sem uma função para ver se acertei na lógica. O meu erro antes era a syntax de querer atribuir valores entre vetores(em Python) sem o método append - o que em C por exemplo eu poderia apenas atribuir com o operador de atribuição - , e não estourar o index do primeiro vetor. A lógica é o vetor invertido receber o vetor inicial na posição i + c, e ir tirando de 1 em 1 na variável c, sendo o valor da variável c o numero da ultima posição do vetor inicial, enquanto i for diferente de 3, que é a última posição do vetor inicial, e ir incrementando 1 em 1 na variável i.
+#Primeiro testei sem uma função para ver se acertei na lógica. O meu erro antes era a syntax de querer atribuir valores entre vetores(em Python) sem o método append - o que em C por exemplo eu poderia apenas atribuir com o operador de atribuição - , e não estourar o index do primeiro vetor. A lógica é o vetor invertido receber o vetor inicial na posição c, e ir tirando de 1 em 1 na variável c, sendo o valor da variável c o numero da ultima posição do vetor inicial, enquanto i for diferente de 3, que é a última posição do vetor inicial, e ir incrementando 1 em 1 na variável i.
 
 def main():
 
